@@ -1,9 +1,45 @@
 \ProvidesPackage{RucBeamerFont}
 
+\RequirePackage{fontspec}
+\RequirePackage[AutoFallBack]{xeCJK}
+
 \usefonttheme{professionalfonts}
-\setCJKmainfont{PingFang SC}
-\setCJKsansfont{PingFang SC}
-\setCJKmonofont{PingFang SC}
-\setmainfont{SF Pro Display}
-\setsansfont{SF Pro Display}
-\setmonofont{SF Mono}
+
+\setmainfont{SF Pro Display}[
+  FallBack={PingFang SC},
+  FallBack={PingFang TC},
+  FallBack={Symbols Nerd Font}
+]
+
+\setsansfont{SF Pro Display}[
+  FallBack={PingFang SC},
+  FallBack={PingFang TC},
+  FallBack={Symbols Nerd Font}
+]
+
+\setmonofont{SF Mono}[
+  FallBack={PingFang SC},
+  FallBack={PingFang TC},
+  FallBack={Symbols Nerd Font Mono}
+]
+
+\setCJKmainfont{SF Pro Display}
+\setCJKfallbackfamilyfont{\CJKrmdefault}[]{
+  [] {PingFang SC},
+  [] {PingFang TC},
+  [] {Symbols Nerd Font}
+}
+
+\setCJKsansfont{SF Pro Display}
+\setCJKfallbackfamilyfont{\CJKsfdefault}[]{
+  [] {PingFang SC},
+  [] {PingFang TC},
+  [] {Symbols Nerd Font}
+}
+
+\setCJKmonofont{SF Mono}
+\setCJKfallbackfamilyfont{\CJKttdefault}{
+  [] {PingFang SC},
+  [] {PingFang TC},
+  [] {Symbols Nerd Font Mono}
+}

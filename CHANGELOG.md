@@ -2,6 +2,10 @@
 
 本项目使用此文件按照时间倒序记录每一个 Commit 的更新内容，以避免分割 Commit。
 
+## Commit v2025.05.16a
+
+- 配置了后备字体，扩大字体覆盖范围。
+
 ## Commit v2025.05.16
 
 - 使用 PingFang SC 作为中文字体，SF Pro Display 作为英文字体，SF Mono 作为等宽字体。
