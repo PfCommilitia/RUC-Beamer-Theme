@@ -87,7 +87,7 @@
   \begin{exampleblock}{多行多列公式\footnote{如果公式中有文字出现，请用 $\backslash$mathrm\{\} 或者 $\backslash$text\{\} 包含，不然就会变成 $clip$，在公式里看起来比 $\mathrm{clip}$ 丑非常多。}}
     % 使用 & 分隔
     \begin{align}
-      Q_\mathrm{target}&=r+\gamma Q^\pi(s^\prime, \pi_\theta(s^\prime)+\epsilon)\\
+      Q_{\mathrm{target}} &= r + \gamma Q^{\pi}(s^{\prime}, \pi_{\theta}(s^{\prime}) + \epsilon)\\
       \epsilon&\sim\mathrm{clip}(\mathcal{N}(0, \sigma), -c, c)\nonumber
     \end{align}
   \end{exampleblock}

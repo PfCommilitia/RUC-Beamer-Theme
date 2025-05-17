@@ -2,6 +2,26 @@
 
 本项目使用此文件按照时间倒序记录每一个 Commit 的更新内容，以避免分割 Commit。
 
+## Commit v2025.05.17d
+
+### 功能改进
+
+- 更新字体设置，新的字体设置为：
+  - 英文主字体：EB Garamond, FZShuSong-Z01, Source Han Serif SC, Symbols Nerd Font
+  - 英文无衬线字体：SF Pro Display, PingFang SC, PingFang TC, Sarasa Gothic SC, Symbols Nerd Font
+  - 英文等宽字体：SF Mono, PingFang SC, PingFang TC, Sarasa Gothic SC, Symbols Nerd Font Mono
+  - 英文数学字体：STIX Two Math, FZShuSong-Z01, Source Han Serif SC, Symbols Nerd Font
+  - 中文主字体：EB Garamond, FZShuSong-Z01, Source Han Serif SC, Symbols Nerd Font
+  - 中文粗体主字体：EB Garamond, PingFang SC, PingFang TC, Sarasa Gothic SC, Symbols Nerd Font
+  - 中文斜体主字体：EB Garamond, FZKai-Z03, Source Han Serif SC, Symbols Nerd Font
+  - 中文无衬线字体：SF Pro Display, PingFang SC, PingFang TC, Sarasa Gothic SC, Symbols Nerd Font
+  - 中文等宽字体：SF Mono, PingFang SC, PingFang TC, Sarasa Gothic SC, Symbols Nerd Font Mono
+- `README.md` 中明确使用字体的列表和许可证。
+
+### 问题修复
+
+- 修复一个可能导致范例文件编译失败的公式。
+
 ## Commit v2025.05.17c
 
 ### 视觉改进
