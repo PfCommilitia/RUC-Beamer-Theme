@@ -2,6 +2,7 @@
 
 \RequirePackage{fontspec}
 \RequirePackage[AutoFallBack, AutoFakeSlant, AutoFakeBold]{xeCJK}
+\RequirePackage[math-style=ISO, bold-style=ISO, mathrm=sym]{unicode-math}
 
 \usefonttheme{professionalfonts}
 
@@ -21,6 +22,12 @@
   FallBack={PingFang SC},
   FallBack={PingFang TC},
   FallBack={Symbols Nerd Font Mono}
+]
+
+\setmathfont{STIX Two Math}[
+  FallBack={PingFang SC},
+  FallBack={PingFang TC},
+  FallBack={Symbols Nerd Font}
 ]
 
 \setCJKmainfont{SF Pro Display}
