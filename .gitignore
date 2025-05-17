@@ -12,6 +12,7 @@
 *.toc
 *.vrb
 *.xdv
+*.synctex(busy)
 
 # Compiled files
 /*.pdf
