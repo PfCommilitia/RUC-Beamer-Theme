@@ -8,22 +8,22 @@
 RUC-Beamer-Theme/
 ├── RucBeamerAssets/
 │   ├── background.pdf
-│   ├── Renmin_Univ_Logo.eps
+│   └── Renmin_Univ_Logo.eps
 ├── SlideAssets/
-│   ├── dtmf.pdf
+│   └── dtmf.pdf
 ├── .gitignore
+├── .latexmkrc
 ├── CHANGELOG.md
 ├── LICENSE
 ├── README.md
 ├── ref.bib
+├── RucBeamer.cls
 ├── RucBeamerFont.sty
 ├── RucBeamerTheme.sty
-├── slide.tex
+└── slide.tex
 ```
 
-其中，`slide.tex` 和 `ref.bib` 为模板文件。
-
-现阶段，该主题需要在 `slide.tex` 的基础上进行修改使用；未来计划将 `slide.tex` 中大部分内容移动至一个单独的宏包或文档类中，将使用简化为几个简单的导入命令。
+其中，`slide.tex` 和 `ref.bib` 为范例文件。该主题的大部分设置通过 `RucBeamer` 文档类实现，另起炉灶只需使用该文档类，并使用 `\ructitlepage` 和 `\ructableofcontents` 命令创建标题和目录页即可。
 
 ## 注意事项
 

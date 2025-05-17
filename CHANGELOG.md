@@ -2,6 +2,11 @@
 
 本项目使用此文件按照时间倒序记录每一个 Commit 的更新内容，以避免分割 Commit。
 
+## Commit v2025.05.17
+
+- 使用 `.latexmkrc` 配置，指定 `xelatex` 为编译器。
+- 提取 `RucBeamer.cls` 文档类，使用 `\ructitlepage` 和 `\ructableofcontents` 命令提供标题和目录页样式。
+
 ## Commit v2025.05.16a
 
 - 配置了后备字体，扩大字体覆盖范围。
