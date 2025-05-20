@@ -13,6 +13,8 @@
 *.vrb
 *.xdv
 *.synctex(busy)
+*.lof
+*.lot
 
 # Compiled files
 /*.pdf
