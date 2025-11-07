@@ -2,6 +2,12 @@
 
 本项目使用此文件按照时间倒序记录每一个 Commit 的更新内容，以避免分割 Commit。
 
+## Commit v2025-11-07
+
+### 视觉改进
+
+- 修改字体设置：将"EB Garamond"改为"Cormorant Garamond"，"Sarasa Gothic SC"改为"Noto Sans CJK SC"，"Source Han Serif SC"改为"Noto Serif CJK SC"。
+
 ## Commit v2025-07-04a
 
 ### 视觉改进
