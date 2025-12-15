@@ -4,36 +4,23 @@
 \RequirePackage[AutoFallBack, AutoFakeSlant, AutoFakeBold]{xeCJK}
 \RequirePackage[math-style=ISO, bold-style=ISO, mathrm=sym]{unicode-math}
 
-\setmainfont{Cormorant Garamond}[
-  FallBack = {Noto Serif CJK SC},
-  FallBack = {Symbols Nerd Font}
-]
+\setmainfont{Cormorant Garamond}
+\setsansfont{Noto Sans CJK SC}
+\setmonofont{Maple Mono}
+\setmathfont{STIX Two Math}
 
-\setsansfont{Noto Sans CJK SC}[
-  FallBack = {Symbols Nerd Font}
+\setCJKmainfont{Noto Serif CJK SC}[
+  BoldFont = Noto Sans CJK SC,
+  ItalicFont = FZKai-Z03,
+  BoldItalicFont = Noto Sans CJK SC
 ]
-
-\setmonofont{Maple Mono}[
-  FallBack = {Noto Sans CJK SC},
-  FallBack = {Symbols Nerd Font Mono}
-]
-
-\setmathfont{STIX Two Math}[
-  FallBack = {Noto Serif CJK SC},
-  FallBack = {Symbols Nerd Font}
-]
-
-\setCJKmainfont[BoldFont={Noto Sans CJK SC}]{Noto Serif CJK SC}
-\setCJKfallbackfamilyfont{\CJKrmdefault}[]{
-  [] {Symbols Nerd Font}
+\setCJKfallbackfamilyfont{\CJKrmdefault}{
+  {Noto Serif CJK SC},
+  {Symbols Nerd Font}
 }
 
 \setCJKsansfont{Noto Sans CJK SC}
-\setCJKfallbackfamilyfont{\CJKsfdefault}[]{
-  [] {Symbols Nerd Font}
-}
+\setCJKfallbackfamilyfont{\CJKsfdefault}{Symbols Nerd Font}
 
 \setCJKmonofont{Noto Sans CJK SC}
-\setCJKfallbackfamilyfont{\CJKttdefault}[]{
-  [] {Symbols Nerd Font Mono}
-}
+\setCJKfallbackfamilyfont{\CJKttdefault}{Symbols Nerd Font Mono}
